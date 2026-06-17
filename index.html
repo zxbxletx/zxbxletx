@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Perfil — Tu Nombre</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="intro">
+        <img class="avatar" src="assets/avatar-placeholder.svg" alt="Avatar" />
+        <h1>Tu Nombre</h1>
+        <p class="tagline">Desarrollador/a · Aprendiz constante · Construyendo soluciones</p>
+        <div class="cta">
+          <a class="btn" href="#projects">Proyectos</a>
+          <a class="btn ghost" href="#contact">Contacto</a>
+        </div>
+      </div>
+      <div class="progress-panel">
+        <h3>Progreso reciente</h3>
+        <ul id="recent-list" class="recent-list">
+          <li>Cargando actividades recientes…</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wave" aria-hidden="true"></div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>Sobre mí</h2>
+      <p id="about-text">Soy [Tu profesión] con interés en [tecnologías / áreas]. Me gusta aprender y compartir proyectos que demuestran progreso real y buenas prácticas.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Proyectos destacados</h2>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Habilidades</h2>
+      <div class="skills-grid" id="skills-grid">
+        <!-- barras de progreso -->
+      </div>
+    </section>
+
+    <section id="timeline" class="card">
+      <h2>Timeline — Progreso</h2>
+      <ol id="timeline-list" class="timeline-list">
+        <!-- items dinámicos -->
+      </ol>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contacto</h2>
+      <p>Correo: <span id="email">tu@email.com</span>
+        <button id="copy-email" class="small">Copiar</button>
+      </p>
+      <p>Redes: <a href="#" id="github-link">GitHub</a> · <a href="#">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con ♥ · Personaliza este sitio en <span id="repo-link">/</span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
