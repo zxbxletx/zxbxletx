@@ -20,5 +20,5 @@ URL esperada del despliegue (si Pages está habilitado y el workflow corre corre
 Si quieres, puedo ahora:
 - Añadir mini-badges con enlaces directos a repositorios reales (si me indicas cuáles mostrar).
 - Integrar la API de GitHub para listar repositorios destacados automáticamente.
-- Subir un `CV.pdf` si me pegas el contenido o me confirmas que lo subo (recomendado: súbelo desde tu máquina por privacidad).
+- Subir un `CV.pdf` si me pegas el contenido o me confirmas que lo suba (recomendado: súbelo desde tu máquina por privacidad).
 
