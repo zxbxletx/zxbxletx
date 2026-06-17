@@ -3,27 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Perfil — Tu Nombre</title>
+  <title>Juan José Zabaleta — Portafolio profesional</title>
+  <meta name="description" content="Portafolio profesional de Juan José Zabaleta — desarrollador Full Stack (React, Laravel) e investigador IoT." />
+  <meta property="og:title" content="Juan José Zabaleta — Portafolio profesional" />
+  <meta property="og:description" content="Desarrollador Full Stack con experiencia en React, Laravel e IoT. Visita proyectos, habilidades y experiencia profesional." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="hero">
     <div class="container hero-grid">
       <div class="intro">
-        <img class="avatar" src="assets/avatar-placeholder.svg" alt="Avatar" />
-        <h1>Tu Nombre</h1>
-        <p class="tagline">Desarrollador/a · Aprendiz constante · Construyendo soluciones</p>
+        <img class="avatar" src="assets/avatar-placeholder.svg" alt="Avatar de Juan José Zabaleta" />
+        <h1 id="display-name">JUAN JOSE FERNANDO ZABALETA LEUCA</h1>
+        <p class="title">Analista de Sistemas — Desarrollador Full Stack</p>
+        <p class="tagline">Desarrollador Full Stack con experiencia en frontend (React) y backend (Laravel). Especializado en soluciones IT, IoT y ciberseguridad. Proactivo, responsable y orientado a trabajo en equipo.</p>
         <div class="cta">
-          <a class="btn" href="#projects">Proyectos</a>
+          <a class="btn" href="#projects">Ver proyectos</a>
           <a class="btn ghost" href="#contact">Contacto</a>
         </div>
       </div>
-      <div class="progress-panel">
-        <h3>Progreso reciente</h3>
-        <ul id="recent-list" class="recent-list">
-          <li>Cargando actividades recientes…</li>
+      <aside class="progress-panel">
+        <h3>Resumen rápido</h3>
+        <ul class="summary-list">
+          <li><strong>Disponible para contratación:</strong> Sí / Consultar</li>
+          <li><strong>Ubicación:</strong> Liniers, Ciudad Autónoma de Buenos Aires (Remoto disponible)</li>
+          <li><strong>Contacto:</strong> +54 9 11 7374 1094 · 65118050zabaleta@gmail.com</li>
+          <li><strong>Perfil:</strong> zxbxletx (GitHub / LinkedIn)</li>
         </ul>
-      </div>
+        <h4 style="margin-top:12px">Actividad reciente</h4>
+        <ul id="recent-list" class="recent-list">
+          <li>Actualización: Proyectos y CV</li>
+          <li>Participación en CTF y proyectos IoT</li>
+          <li>Contribuciones en mantenimiento y corrección de bugs</li>
+        </ul>
+      </aside>
     </div>
     <div class="wave" aria-hidden="true"></div>
   </header>
@@ -31,39 +45,39 @@
   <main class="container">
     <section id="about" class="card">
       <h2>Sobre mí</h2>
-      <p id="about-text">Soy [Tu profesión] con interés en [tecnologías / áreas]. Me gusta aprender y compartir proyectos que demuestran progreso real y buenas prácticas.</p>
+      <p id="about-text">Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales. Tengo experiencia como Desarrollador Full Stack, trabajando con React en frontend y Laravel en backend. Me adapto rápido a nuevas tecnologías y tengo conocimientos en ciberseguridad y hacking ético. Me interesa enfrentar nuevos desafíos técnicos y colaborar en equipos multidisciplinarios.</p>
     </section>
 
     <section id="projects" class="card">
       <h2>Proyectos destacados</h2>
+      <p class="muted">Proyectos seleccionados que muestran trabajo real, investigación y resultados aplicables en entornos productivos.</p>
       <div id="projects-grid" class="grid"></div>
     </section>
 
     <section id="skills" class="card">
       <h2>Habilidades</h2>
-      <div class="skills-grid" id="skills-grid">
-        <!-- barras de progreso -->
-      </div>
+      <div class="skills-grid" id="skills-grid"></div>
     </section>
 
     <section id="timeline" class="card">
-      <h2>Timeline — Progreso</h2>
-      <ol id="timeline-list" class="timeline-list">
-        <!-- items dinámicos -->
-      </ol>
+      <h2>Experiencia & Educación</h2>
+      <ol id="timeline-list" class="timeline-list"></ol>
     </section>
 
     <section id="contact" class="card">
       <h2>Contacto</h2>
-      <p>Correo: <span id="email">tu@email.com</span>
+      <p>Correo: <a id="email-link" href="mailto:65118050zabaleta@gmail.com">65118050zabaleta@gmail.com</a>
         <button id="copy-email" class="small">Copiar</button>
       </p>
-      <p>Redes: <a href="#" id="github-link">GitHub</a> · <a href="#">LinkedIn</a></p>
+      <p>Teléfono: <strong>+54 9 11 7374 1094</strong></p>
+      <p>Redes: <a id="github-link" href="https://github.com/zxbxletx">GitHub</a> · <a id="linkedin-link" href="#">LinkedIn</a></p>
+      <p>Currículum: <a id="resume-link" href="#">Descargar (sube CV.pdf al repo para activar)</a></p>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Hecho con ♥ · Personaliza este sitio en <span id="repo-link">/</span></p>
+    <p>Hecho con ♥ · Página generada y personalizada para presentar tu perfil profesional.</p>
+    <p class="muted">Repositorio: <a href="https://github.com/zxbxletx/zxbxletx">github.com/zxbxletx/zxbxletx</a></p>
   </footer>
 
   <script src="js/script.js"></script>
